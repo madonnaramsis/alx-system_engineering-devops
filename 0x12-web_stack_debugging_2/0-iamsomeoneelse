@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# This script is used to switch to another user and run whoami command as that user.
+
+sudo -u "$1" whoami
